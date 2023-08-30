@@ -3,20 +3,27 @@ body {
   background-color: #f4f4f4;
   margin: 0;
   padding: 0;
+  background: rgba(125, 124, 124, 0.638) url(images/bg-2.jpg) no-repeat center
+    fixed;
+  /* background-position: right bottom, left top; */
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 
 .container {
   max-width: 600px;
+
   margin: 0 auto;
   padding: 20px;
   text-align: center;
-  background-color: #fff;
+  background-color: #5c715e;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-top: 50px;
 }
 h1 {
   margin-bottom: 20px;
+  color: white;
 }
 
 .input-container {
@@ -31,18 +38,23 @@ input {
 }
 button {
   padding: 10px 20px;
-  background-color: #3498db;
-  color: #fff;
+  background-color: #f2f9f1;
+  color: black;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #2980b9;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
 }
 .answer-container {
-  background-color: #f0f0f0;
+  background-color: #ddeedf;
   padding: 20px;
   border-radius: 5px;
+}
+.freepik {
+  display: none;
 }
