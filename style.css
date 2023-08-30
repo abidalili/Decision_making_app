@@ -10,16 +10,21 @@ body {
   background-blend-mode: multiply;
 }
 
-.container {
-  max-width: 600px;
+.wrappaer {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  margin: 0 auto;
+.container {
+  width: 600px;
+  min-height: 200px;
   padding: 20px;
   text-align: center;
   background-color: #5c715e;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.2);
   border-radius: 5px;
-  margin-top: 50px;
 }
 h1 {
   margin-bottom: 20px;
@@ -52,6 +57,7 @@ button:hover {
 }
 .answer-container {
   background-color: #ddeedf;
+  min-height: 100px;
   padding: 20px;
   border-radius: 5px;
 }
